@@ -1,38 +1,236 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: white;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.background {
+  align-self: center;
+  flex-grow: 1;
+  width: 500px;
+  height: 700px;
+  background-color: black;
+}
+
+
+.star-background {
+  display: flex;
+  background-image: url("./star-background.jpg");
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  color: black;
+  font-size: 40px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top:10px;
+  left: 100px;
+}
+
+.night-sky {
+  background: #111;
+  background: url('https://hd.unsplash.com/photo-1439923274069-a6f070db0c99');
+  background-size: cover;
+  overflow: hidden;
+  border: 
+}
+
+.star-box {
+  width: 506.8px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* star styling */
+
+
+.star {
+  position: absolute;
+  box-shadow: 0 0 3px #fff;
+  border-radius: 50%;
+}
+
+.twinkle-star-1 {
+  width: 10px;
+  height: 10px;
+  top: 3.7%;
+  left: 2.9%;
+  background: #b6c8ff;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 1.61404s;
+          animation-delay: 1.61404s;
+}
+
+.twinkle-star-2 {
+  top: 47.5%;
+  left: 23%;
+  width: 6px;
+  height: 6px;
+  background: #f4ccbf;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 4.09091s;
+          animation-delay: 4.09091s;
+}
+
+.twinkle-star-3 {
+  background: #f4ccbf;
+  width: 6px;
+  height: 6px;
+  top: 51%;
+  left: 50%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 1.77143s;
+          animation-delay: 1.77143s;
+}
+
+.twinkle-star-4 {
+  width: 7px;
+  height: 7px;
+  top: 70%;
+  right: 2.7%;
+  background: #b6c8ff;
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 1.55357s;
+          animation-delay: 1.55357s;
+}
+
+.twinkle-star-5 {
+  background: #f4aaaa;
+  width: 6px;
+  height: 6px;
+  bottom: 4.2%;
+  right: 34%;
+  -webkit-animation: twinkle 0.75s alternate infinite;
+          animation: twinkle 0.75s alternate infinite;
+  -webkit-animation-delay: 0.88462s;
+          animation-delay: 0.88462s;
+}
+
+.twinkle-star-6 {
+  background: #f4aaaa;
+  width: 10px;
+  height: 10px;
+
+  -webkit-animation: twinkle 0.5s alternate infinite;
+          animation: twinkle 0.5s alternate infinite;
+  -webkit-animation-delay: 0.66s;
+          animation-delay: 0.66s;
+}
+
+
+/* line styling */
+
+.line {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  background: rgba(246,218,230,0.65);
+  -webkit-animation: line 7s alternate infinite;
+          animation: line 7s alternate infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.line-1 {
+  height: 180px;
+  transform: rotate(-28.92deg);
+  top: 4.4%;
+  left: 13.4%;
+}
+
+.line-2 {
+  height: 119.95px;
+  transform: rotate(-85.97deg);
+  top: 35%;
+  left: 37.2%;
+}
+
+.line-3 {
+  height: 168px;
+  transform: rotate(-22.1deg);
+  top: 52.4%;
+  left: 57.8%;
+}
+
+.line-4 {
+  height: 162px;
+  transform: rotate(58deg);
+  top: 63%;
+  left: 81%;
+}
+
+.line-5 {
+  height: 48px;
+  transform: rotate(69deg);
+  top: 38.2%;
+  left: 21.5%;
+}
+
+.line-6 {
+  height: 101px;
+  transform: rotate(69deg);
+  top: 77.5%;
+  left: 48%;
+}
+
+.line-7 {
+  height: 8px;
+  transform: rotate(9deg);
+  top: 99.5%;
+  left: 29.8%;
+}
+
+/* the keyframes! */
+
+@keyframes twinkle {
+  0% {
+    opacity: .45;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes line {
+  0% {
+    opacity: .5;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.star-text{
+  position: absolute;
   color: white;
+  font-family: 'Muli', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.star-text-1{
+  position: absolute;
+  color: white;
+  font-family: 'Muli', sans-serif;
+  top: 10%
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

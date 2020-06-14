@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ExampleCss from "./Components/Animation.js";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="body">
+      <div className="background">
+      <div className="Title">Mehak Sarang</div>
+      <div className="star-background">
+        <ExampleCss />
+        <div class='night-sky'>
+          <div class="star-box">
+            <div class='star twinkle-star-1'></div>
+            <div class='star twinkle-star-2'></div>
+            <div class='star twinkle-star-3'></div>
+            <div class='star twinkle-star-4'></div>
+            <div class='star twinkle-star-5'></div>
+            <div class='line line-1'></div>
+            <div class='line line-2'></div>
+            <div class='line line-3'></div>
+            <div class='line line-4'></div>
+        </div>
+      </div>
+    </div>
+    </div>
     </div>
   );
 }
