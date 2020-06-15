@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Animation.css';
 
-export default class ExampleCss extends Component {
+export default class Card extends Component {
     constructor(props) {
         super(props);
         this.wrapperRef = React.createRef();
@@ -16,21 +16,20 @@ export default class ExampleCss extends Component {
         return(
             <div>
             <div>
-                <div ref={this.wrapperRef} className="wrapper">
+                <div ref={this.wrapperRef} className={this.props.wrapper}>
                     <div className="nav">
                         <div className="card-title">
-                            About Me
+                            {this.props.cardtitle}
                         </div>
                         <div className="card-body">
-                            I'm a researcher at the MIT Media Lab's Space Exploration Initiative and Harvard Business School
-                            studying the future of space exploration.
+                            {this.props.cardbody}
                         </div>
                 </div>
             </div>
         </div>
         <button
             className="nav__icon"
-            onClick={() => this.handleClick()}>About</button>
+            onClick={() => this.handleClick()}>{this.props.cardtitle}</button>
         </div>
         )
     }
