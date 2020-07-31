@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1fcf6024c3d2cc380130bc7e762bd61",
+    "revision": "de9d889bf330fcf4256cfab694f12f21",
     "url": "/mehaksarang.com/index.html"
   },
   {
-    "revision": "a54209f059b5490d067f",
+    "revision": "4ec6e0fefba835d6973b",
     "url": "/mehaksarang.com/static/css/main.d3bf327b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mehaksarang.com/static/js/2.696b64ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a54209f059b5490d067f",
-    "url": "/mehaksarang.com/static/js/main.9bb86240.chunk.js"
+    "revision": "4ec6e0fefba835d6973b",
+    "url": "/mehaksarang.com/static/js/main.e18a73d7.chunk.js"
   },
   {
     "revision": "ca217d319529944899ef",
