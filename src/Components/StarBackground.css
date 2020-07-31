@@ -1,0 +1,230 @@
+.body {
+    position: relative;
+    display: flex;
+    background-image: url("./star-background.jpg");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    min-width: max-content;
+    min-height: max-content;
+    align-self: center;
+    padding-bottom: 150px;
+  }
+  
+  .night-sky {
+    min-width: 320px;
+    height: 252.56px;
+    background: transparent;
+    zoom: 200%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .night-sky {
+      zoom: 100%;;
+    }
+  }
+
+/* star containers */
+
+.card-column {
+  max-height: max-content;
+  padding-left: 0px;
+  padding-right: 0px;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.star-container-1 {
+  position: relative;
+  top: 3.7%;
+  left: -1%;
+  width: max-content;
+  height: max-content;
+}
+
+.star-container-2 {
+  position: relative;
+  top: 47.5%;
+  left: 20.5%;
+  width: max-content;
+  height: max-content;
+}
+
+.star-container-3 {
+  position: relative;
+  top: 51%;
+  left: 49.6%;
+  width: max-content;
+  height: max-content;
+}
+
+.star-container-4 {
+  position: relative;
+  top: 70%;
+  left: 100%;
+  width: max-content;
+  height: max-content;
+}
+
+.star-container-5 {
+  position: relative;
+  top: 93%;
+  left: 67%;
+  width: max-content;
+  height: max-content;
+}
+
+
+  /* star styling */
+  
+  .star {
+    position: absolute;
+    box-shadow: 0 0 3px #fff;
+    border-radius: 50%;
+  }
+
+  .twinkle-star-1 {
+    flex: 1;
+    width: 10px;
+    height: 10px;
+    background: #b6c8ff;
+    -webkit-animation: twinkle 0.5s alternate infinite;
+            animation: twinkle 0.5s alternate infinite;
+    -webkit-animation-delay: 1.61404s;
+            animation-delay: 1.61404s;
+
+
+  &:hover {
+    flex: 7;
+  }
+  }
+  
+  .twinkle-star-2 {
+    width: 6px;
+    height: 6px;
+    background: #f4ccbf;
+    -webkit-animation: twinkle 0.5s alternate infinite;
+            animation: twinkle 0.5s alternate infinite;
+    -webkit-animation-delay: 4.09091s;
+            animation-delay: 4.09091s;
+  }
+  
+  .twinkle-star-3 {
+    background: #f4ccbf;
+    width: 6px;
+    height: 6px;
+    -webkit-animation: twinkle 0.75s alternate infinite;
+            animation: twinkle 0.75s alternate infinite;
+    -webkit-animation-delay: 1.77143s;
+            animation-delay: 1.77143s;
+  }
+  
+  .twinkle-star-4 {
+    width: 7px;
+    height: 7px;
+    background: #b6c8ff;
+    -webkit-animation: twinkle 0.5s alternate infinite;
+            animation: twinkle 0.5s alternate infinite;
+    -webkit-animation-delay: 1.55357s;
+            animation-delay: 1.55357s;
+  }
+  
+  .twinkle-star-5 {
+    background: #f4aaaa;
+    width: 6px;
+    height: 6px;
+    -webkit-animation: twinkle 0.75s alternate infinite;
+            animation: twinkle 0.75s alternate infinite;
+    -webkit-animation-delay: 0.88462s;
+            animation-delay: 0.88462s;
+  }
+  
+  
+  /* star styling */
+  .button {
+    color: white;
+  }
+  
+
+  
+  /* line styling */
+  
+  .line {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    background: rgba(246,218,230,0.65);
+    -webkit-animation: line 7s alternate infinite;
+            animation: line 7s alternate infinite;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  
+  .line-1 {
+    height: 106px;
+    transform: rotate(-28.92deg);
+    top: 6.4%;
+    left: 14.4%;
+  }
+  
+  .line-2 {
+    height: 70px;
+    transform: rotate(-84.9deg);
+    top: 37%;
+    left: 37.3%;
+  }
+  
+  .line-3 {
+    height: 102px;
+    transform: rotate(-23deg);
+    top: 53%;
+    left: 58%;
+  }
+  
+  .line-4 {
+    height: 95px;
+    transform: rotate(58deg);
+    top: 64.5%;
+    left: 81%;
+  }
+  
+  
+  /* the keyframes! */
+  
+  @keyframes twinkle {
+    0% {
+      opacity: .45;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes line {
+    0% {
+      opacity: .5;
+    }
+    20% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .star-text{
+    position: absolute;
+    color: white;
+    font-family: 'Muli', sans-serif;
+  }
+  
+  .star-text-1{
+    position: absolute;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    top: 10%
+  }
+  
