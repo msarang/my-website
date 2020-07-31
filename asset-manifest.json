@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/www.mehaksarang.com/static/css/main.1babc19c.chunk.css",
-    "main.js": "/www.mehaksarang.com/static/js/main.664632a5.chunk.js",
-    "main.js.map": "/www.mehaksarang.com/static/js/main.664632a5.chunk.js.map",
-    "runtime-main.js": "/www.mehaksarang.com/static/js/runtime-main.de69718f.js",
-    "runtime-main.js.map": "/www.mehaksarang.com/static/js/runtime-main.de69718f.js.map",
-    "static/js/2.696b64ae.chunk.js": "/www.mehaksarang.com/static/js/2.696b64ae.chunk.js",
-    "static/js/2.696b64ae.chunk.js.map": "/www.mehaksarang.com/static/js/2.696b64ae.chunk.js.map",
-    "index.html": "/www.mehaksarang.com/index.html",
-    "precache-manifest.a9b4cd0d8610c1ad43862a0539b134d4.js": "/www.mehaksarang.com/precache-manifest.a9b4cd0d8610c1ad43862a0539b134d4.js",
-    "service-worker.js": "/www.mehaksarang.com/service-worker.js",
-    "static/css/main.1babc19c.chunk.css.map": "/www.mehaksarang.com/static/css/main.1babc19c.chunk.css.map",
-    "static/js/2.696b64ae.chunk.js.LICENSE.txt": "/www.mehaksarang.com/static/js/2.696b64ae.chunk.js.LICENSE.txt",
-    "static/media/StarBackground.css": "/www.mehaksarang.com/static/media/star-background.16bd4197.jpg"
+    "main.css": "/mehaksarang.com/static/css/main.d3bf327b.chunk.css",
+    "main.js": "/mehaksarang.com/static/js/main.9bb86240.chunk.js",
+    "main.js.map": "/mehaksarang.com/static/js/main.9bb86240.chunk.js.map",
+    "runtime-main.js": "/mehaksarang.com/static/js/runtime-main.1e334ddc.js",
+    "runtime-main.js.map": "/mehaksarang.com/static/js/runtime-main.1e334ddc.js.map",
+    "static/js/2.696b64ae.chunk.js": "/mehaksarang.com/static/js/2.696b64ae.chunk.js",
+    "static/js/2.696b64ae.chunk.js.map": "/mehaksarang.com/static/js/2.696b64ae.chunk.js.map",
+    "index.html": "/mehaksarang.com/index.html",
+    "precache-manifest.d10fd3fabe0aafbc023a7da89b28de89.js": "/mehaksarang.com/precache-manifest.d10fd3fabe0aafbc023a7da89b28de89.js",
+    "service-worker.js": "/mehaksarang.com/service-worker.js",
+    "static/css/main.d3bf327b.chunk.css.map": "/mehaksarang.com/static/css/main.d3bf327b.chunk.css.map",
+    "static/js/2.696b64ae.chunk.js.LICENSE.txt": "/mehaksarang.com/static/js/2.696b64ae.chunk.js.LICENSE.txt",
+    "static/media/StarBackground.css": "/mehaksarang.com/static/media/star-background.16bd4197.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.de69718f.js",
+    "static/js/runtime-main.1e334ddc.js",
     "static/js/2.696b64ae.chunk.js",
-    "static/css/main.1babc19c.chunk.css",
-    "static/js/main.664632a5.chunk.js"
+    "static/css/main.d3bf327b.chunk.css",
+    "static/js/main.9bb86240.chunk.js"
   ]
 }
