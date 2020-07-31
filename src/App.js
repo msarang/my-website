@@ -5,9 +5,9 @@ import { HashRouter, Route } from "react-router-dom";
 class App extends Component {
   render() {   
   return (
-    <HashRouter basename="/">
+    <Router basename="/">
          <Route exact path="/" component={Home} />
-   </HashRouter>
+   </Router>
   );
 }
 }
