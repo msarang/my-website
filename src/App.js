@@ -6,7 +6,7 @@ class App extends Component {
   render() {   
   return (
     <Router basename="/">
-         <Route exact path="/" component={Home} />
+         <Route exact path="/"> <Home /> </Route>
    </Router>
   );
 }
