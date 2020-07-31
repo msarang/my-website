@@ -12,7 +12,7 @@
     "service-worker.js": "/service-worker.js",
     "static/css/main.d3bf327b.chunk.css.map": "/static/css/main.d3bf327b.chunk.css.map",
     "static/js/2.696b64ae.chunk.js.LICENSE.txt": "/static/js/2.696b64ae.chunk.js.LICENSE.txt",
-    "static/media/StarBackground.css": "/static/media/star-background.16bd4197.jpg"
+    "static/media/StarBackground.css": "/media/star-background.16bd4197.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1e334ddc.js",
