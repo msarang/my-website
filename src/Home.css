@@ -10,11 +10,18 @@
 }
 
 .Header {
-  display: flex;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-left: 50px;
-  align-self: baseline;
+  padding-left: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: max-content;
+}
+
+.Links {
+  padding-left: 0px;
+  padding-top: 20px;
 }
 
 .Title {
@@ -22,9 +29,21 @@
   font-size: 70px;
   font-family: 'Muli', sans-serif;
   font-weight: 600;
-
 }
 
-.row {
-  height: 100;
+.container {
+  padding-top: 10px;
+  margin-right: 0px;
+  margin-left: 10%;
+}
+
+.publications {
+  height: 100vh;
+  align-items: center;
+
+}
+@media only screen and (max-width: 600px) {
+  .Title {
+    font-size: 50px;
+  }
 }

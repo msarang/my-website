@@ -3,11 +3,26 @@
     position: fixed;
     transition: margin .5s;
     background-color: white;
-    justify-content: center;
     flex-direction: column;
     width: 30%;
     height: 100vh;
 }
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+      width: 100%;
+    }
+
+    div.wrapper-1{
+        margin-left: -100%;
+    }
+
+    button.nav__icon {
+        top: 0%;
+        left: 0%;
+        color: lightblue;
+    }
+  }
 
 .wrapper-1 {
     margin-left: -60%;
@@ -25,8 +40,8 @@
 
 .nav__icon {
     position: absolute;
-    top: 75%;
-    left: 30%;
+    top: 100%;
+    left: 29%;
     font-size: 20px;
     cursor: pointer;
     transition: color .1s;
