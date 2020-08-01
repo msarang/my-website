@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mehaksarang.com/static/css/main.db74ed58.chunk.css",
-    "main.js": "/mehaksarang.com/static/js/main.e04d8152.chunk.js",
-    "main.js.map": "/mehaksarang.com/static/js/main.e04d8152.chunk.js.map",
-    "runtime-main.js": "/mehaksarang.com/static/js/runtime-main.1e334ddc.js",
-    "runtime-main.js.map": "/mehaksarang.com/static/js/runtime-main.1e334ddc.js.map",
-    "static/js/2.b75a579f.chunk.js": "/mehaksarang.com/static/js/2.b75a579f.chunk.js",
-    "static/js/2.b75a579f.chunk.js.map": "/mehaksarang.com/static/js/2.b75a579f.chunk.js.map",
-    "index.html": "/mehaksarang.com/index.html",
-    "precache-manifest.3e88ecec6860399e6b33229423440508.js": "/mehaksarang.com/precache-manifest.3e88ecec6860399e6b33229423440508.js",
-    "service-worker.js": "/mehaksarang.com/service-worker.js",
-    "static/css/main.db74ed58.chunk.css.map": "/mehaksarang.com/static/css/main.db74ed58.chunk.css.map",
-    "static/js/2.b75a579f.chunk.js.LICENSE.txt": "/mehaksarang.com/static/js/2.b75a579f.chunk.js.LICENSE.txt",
-    "static/media/Headshot.png": "/mehaksarang.com/static/media/Headshot.b57b1ae6.png",
-    "static/media/StarBackground.css": "/mehaksarang.com/static/media/star-background.16bd4197.jpg"
+    "main.css": "./static/css/main.86237af9.chunk.css",
+    "main.js": "./static/js/main.e2f1f69f.chunk.js",
+    "main.js.map": "./static/js/main.e2f1f69f.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8893b54b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8893b54b.js.map",
+    "static/js/2.f8c2c59c.chunk.js": "./static/js/2.f8c2c59c.chunk.js",
+    "static/js/2.f8c2c59c.chunk.js.map": "./static/js/2.f8c2c59c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.4bb01824ca0eb7c37a4198d9f9cbe8f9.js": "./precache-manifest.4bb01824ca0eb7c37a4198d9f9cbe8f9.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.86237af9.chunk.css.map": "./static/css/main.86237af9.chunk.css.map",
+    "static/js/2.f8c2c59c.chunk.js.LICENSE.txt": "./static/js/2.f8c2c59c.chunk.js.LICENSE.txt",
+    "static/media/Headshot.png": "./static/media/Headshot.b57b1ae6.png",
+    "static/media/StarBackground.css": "./static/media/star-background.16bd4197.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e334ddc.js",
-    "static/js/2.b75a579f.chunk.js",
-    "static/css/main.db74ed58.chunk.css",
-    "static/js/main.e04d8152.chunk.js"
+    "static/js/runtime-main.8893b54b.js",
+    "static/js/2.f8c2c59c.chunk.js",
+    "static/css/main.86237af9.chunk.css",
+    "static/js/main.e2f1f69f.chunk.js"
   ]
 }
