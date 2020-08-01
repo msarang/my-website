@@ -59,6 +59,10 @@
     z-index: 1;
 }
 
+.card-body {
+    font-size: 16px;
+}
+
 .card-title {
     color: black;
     font-size: 25px;
