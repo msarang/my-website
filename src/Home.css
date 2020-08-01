@@ -60,6 +60,7 @@
 
   .publications {
     flex-direction: column;
+    flex-wrap: inherit;
   }
 
   .container {
@@ -74,7 +75,5 @@
     flex-grow: 0;
 
   }
-
-
   
 }

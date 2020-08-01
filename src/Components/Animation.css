@@ -9,11 +9,11 @@
     z-index: 1;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .wrapper {
       width: 100%;
       height: max-content;
-      padding-bottom: 40px;
+      padding-bottom: 15px;
     }
 
     div.wrapper-1{
@@ -21,13 +21,15 @@
     }
 
     button.nav__icon {
-        top: -10%;
+        top: -15%;
         left: 85%;
-        color: blue;
+        background-color: lightskyblue;
+        border-radius: 5px;
+        font-size: 15px;
     }
 
-    .card-body {
-        font-size: 12px;
+    p.card-text {
+        font-size: 10px;
     }
   }
 
@@ -59,7 +61,7 @@
     z-index: 1;
 }
 
-.card-body {
+.card-text {
     font-size: 16px;
 }
 

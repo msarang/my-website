@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './Animation.css';
 import headshot from './Headshot.png';
+import { ScrollTo } from "react-scroll-to";
+
 
 export default class Card extends Component {
     constructor(props) {
@@ -21,6 +23,8 @@ export default class Card extends Component {
                     <div className="nav">
                         <div className="card-body">
                             <img src={headshot} width="60%"/>
+
+                            <p className="card-text">
                             <br></br>
                             <br></br>
                             <b>I study the future of the space industry.</b>
@@ -44,8 +48,10 @@ export default class Card extends Component {
                             I'm passionate about democratizing access to space, and proud to work towards that goal with other young, passionate individuals in the space industry as the Strategic Partnerships Team co-coordinator
                             of the <a href="https://spacegeneration.org/">Space Generation Advisory Council</a>. 
 
+
                             <br></br>
                             <br></br>
+                            </p>
 
                         </div>
                 </div>

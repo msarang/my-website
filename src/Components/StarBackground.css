@@ -21,13 +21,13 @@
     zoom: 200%;
   }
 
+  .mobile-only {
+    visibility: hidden;
+  }
+
   @media only screen and (max-width: 600px) {
     .night-sky {
       zoom: 100%;;
-    }
-
-    publications.p {
-      font-size: 10px;
     }
   }
 
