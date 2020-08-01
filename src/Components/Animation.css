@@ -6,11 +6,14 @@
     flex-direction: column;
     width: 30%;
     height: 100vh;
+    z-index: 1;
 }
 
 @media only screen and (max-width: 600px) {
     .wrapper {
       width: 100%;
+      height: max-content;
+      padding-bottom: 40px;
     }
 
     div.wrapper-1{
@@ -18,9 +21,13 @@
     }
 
     button.nav__icon {
-        top: 0%;
-        left: 0%;
-        color: lightblue;
+        top: -10%;
+        left: 85%;
+        color: blue;
+    }
+
+    .card-body {
+        font-size: 12px;
     }
   }
 
@@ -41,7 +48,7 @@
 .nav__icon {
     position: absolute;
     top: 100%;
-    left: 29%;
+    left: 36%;
     font-size: 20px;
     cursor: pointer;
     transition: color .1s;
@@ -49,6 +56,7 @@
     color: white;
     outline: none;
     border: none;
+    z-index: 1;
 }
 
 .card-title {
@@ -56,12 +64,5 @@
     font-size: 25px;
     font-family: 'Muli', sans-serif;
     font-weight: 800;
-  }
-  
-  .card-text {
-    color: black;
-    font-size: 15px;
-    font-family: 'Muli', sans-serif;
-    font-weight: 400;
   }
   

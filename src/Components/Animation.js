@@ -23,7 +23,7 @@ export default class Card extends Component {
                             <img src={headshot} width="60%"/>
                             <br></br>
                             <br></br>
-                            <b>I study the future of the space industry. </b>
+                            <b>I study the future of the space industry.</b>
 
                             <br></br>
                             <br></br>

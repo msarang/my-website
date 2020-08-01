@@ -14,8 +14,6 @@
     padding-bottom: 150px;
   }
 
-
-  
   .night-sky {
     min-width: 320px;
     height: 252.56px;
@@ -26,6 +24,10 @@
   @media only screen and (max-width: 600px) {
     .night-sky {
       zoom: 100%;;
+    }
+
+    publications.p {
+      font-size: 10px;
     }
   }
 
@@ -151,13 +153,6 @@
             animation-delay: 0.88462s;
   }
   
-  
-  /* star styling */
-  .button {
-    color: white;
-  }
-  
-
   
   /* line styling */
   
